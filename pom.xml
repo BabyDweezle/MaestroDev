@@ -13,13 +13,24 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+
   <distributionManagement>
     <repository>
-      <id>MaestroDevArchiva</id>
+      <id>maestro-deploy</id>
       <name>MaestrDevArchivaRepos</name>
       <url>http://localhost:8082/archiva/repository/snapshots</url>
     </repository>
-  </distributionManagement>
+
+<!--
+	<distributionManagement>
+	    <snapshotRepository>
+	        <id>snapshots</id>
+	        <name>COFLCNU219049K-snapshots</name>
+	        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+	    </snapshotRepository>
+	</distributionManagement>
+-->	
+</distributionManagement>  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -31,7 +42,7 @@
 <!--
    <repositories>
     <repository>
-      <id>MaestroDevArchiva</id>
+      <id>maestro-deploy</id>
       <name>Maestro DevArchiva Snapshots</name>
       <url>https://ingdirect-eval.maestrodev.com/archiva/repository/snapshots</url>
     </repository>
