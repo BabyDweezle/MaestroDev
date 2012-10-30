@@ -15,8 +15,9 @@
   </properties>
   <distributionManagement>
     <repository>
+      <id>MaestroDevArchiva</id>
       <name>MaestrDevArchivaRepos</name>
-      <url>http://localhost:8082/archiva</url>
+      <url>https://ingdirect-eval.maestrodev.com/archiva/repository/snapshots</url>
     </repository>
   </distributionManagement>
   <dependencies>
@@ -27,4 +28,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+<!--
+   <repositories>
+    <repository>
+      <id>MaestroDevArchiva</id>
+      <name>Maestro DevArchiva Snapshots</name>
+      <url>https://ingdirect-eval.maestrodev.com/archiva/repository/snapshots</url>
+    </repository>
+  </repositories>  
+-->
 </project>
