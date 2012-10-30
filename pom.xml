@@ -17,7 +17,7 @@
     <repository>
       <id>MaestroDevArchiva</id>
       <name>MaestrDevArchivaRepos</name>
-      <url>https://ingdirect-eval.maestrodev.com/archiva/repository/snapshots</url>
+      <url>http://localhost:8082/archiva/repository/snapshots</url>
     </repository>
   </distributionManagement>
   <dependencies>
