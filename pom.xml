@@ -13,7 +13,12 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
+  <distributionManagement>
+    <repository>
+      <name>MaestrDevArchivaRepos</name>
+      <url>http://localhost:8082/archiva</url>
+    </repository>
+  </distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
